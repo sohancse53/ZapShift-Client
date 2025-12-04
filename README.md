@@ -75,7 +75,6 @@ Node.js, Express.js, MongoDB
 
 ## 📦 Frontend Dependencies
 
-```json
 "dependencies": {
   "@tailwindcss/vite": "^4.1.17",
   "@tanstack/react-query": "^5.90.10",
@@ -99,12 +98,15 @@ Node.js, Express.js, MongoDB
 
 
 
-💻 Installation & Setup
+## 💻 Installation & Setup
 
-Frontend Setup (Client)
-Clone the repository
+### Frontend Setup (Client)
+
+**Clone the repository**
+```bash
 git clone https://github.com/sohancse53/ZapShift-Client
 cd ZapShift-Client
+
 
 **Install dependencies
 npm install
