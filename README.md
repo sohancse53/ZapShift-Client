@@ -132,7 +132,7 @@ VITE_BACKEND_URL=http://localhost:5000
 --Run the frontend
   npm run dev
 
-Backend Setup (Server)
+### Backend Setup (Server)
 
 Clone the backend repository
 
