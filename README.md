@@ -97,20 +97,25 @@ Node.js, Express.js, MongoDB
 
 
 
+
+
 💻 Installation & Setup
+
 Frontend Setup (Client)
-# Clone the repository
+Clone the repository
 git clone https://github.com/sohancse53/ZapShift-Client
 cd ZapShift-Client
 
-# Install dependencies
+**Install dependencies
 npm install
 
-# Create environment file
+
+Create environment file
+
 touch .env.local
 
 
-.env.local Example:
+--Add your Firebase and backend configuration in .env.local:
 
 VITE_apiKey=your_firebase_api_key
 VITE_authDomain=your_firebase_auth_domain
@@ -121,29 +126,39 @@ VITE_appId=your_firebase_app_id
 
 VITE_BACKEND_URL=http://localhost:5000
 
-# Run the frontend
-npm run dev
+
+--Run the frontend
+  npm run dev
 
 Backend Setup (Server)
-# Clone backend repository
+
+Clone the backend repository
+
 git clone https://github.com/sohancse53/ZapShift-Server
 cd ZapShift-Server
 
-# Install dependencies
+
+Install dependencies
+
 npm install
 
-# Create environment file
+
+Create environment file
+
 touch .env
 
 
-.env Example:
+Add your backend configuration in .env:
 
 PORT=5000
 MONGODB_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 
-# Start the backend server
+
+Start the backend server
+
 npm start
 
 
-Backend runs at: http://localhost:5000
+Backend will run at: http://localhost:5000
+
